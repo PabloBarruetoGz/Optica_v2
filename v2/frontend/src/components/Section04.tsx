@@ -1,0 +1,34 @@
+export function Section04() { return (<section className="elementor-section elementor-top-section elementor-element elementor-element-5eed096 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5eed096" data-element_type="section" data-e-type="section" id="nosotros" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+  <div className="elementor-container elementor-column-gap-default">
+    <div className="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-62ddcdba elementor-hidden-tablet elementor-hidden-mobile" data-id="62ddcdba" data-element_type="column" data-e-type="column" data-settings="{&quot;animation&quot;:&quot;none&quot;}">
+      <div className="elementor-widget-wrap elementor-element-populated">
+        <div className="elementor-element elementor-element-689f4bed elementor-widget elementor-widget-image" data-id="689f4bed" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInLeft&quot;}" data-widget_type="image.default">
+          <img loading="lazy" decoding="async" width={1024} height={1024} src="assets/media/LOGO-ORIGINAL--1024x1024-b8393aa27f.jpg" className="attachment-large size-large wp-image-44" alt="" srcSet="assets/media/LOGO-ORIGINAL--1024x1024-b8393aa27f.jpg 1024w, assets/media/LOGO-ORIGINAL--300x300-93fe527962.jpg 300w, assets/media/LOGO-ORIGINAL--150x150-3e7fc0a89e.jpg 150w, assets/media/LOGO-ORIGINAL--768x768-c9f10ad45b.jpg 768w, assets/media/LOGO-ORIGINAL--1536x1536-5f8250b264.jpg 1536w, assets/media/LOGO-ORIGINAL--4efbdfb20e.jpg 2048w" sizes="(max-width: 1024px) 100vw, 1024px" />															</div>
+      </div>
+    </div>
+    <div className="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-2f9e138b" data-id="2f9e138b" data-element_type="column" data-e-type="column">
+      <div className="elementor-widget-wrap elementor-element-populated">
+        <div className="elementor-element elementor-element-404ec25e elementor-widget elementor-widget-heading" data-id="404ec25e" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
+          <h5 className="elementor-heading-title elementor-size-default">Sobre Nosotros</h5>				</div>
+        <div className="elementor-element elementor-element-378d6919 elementor-widget elementor-widget-heading" data-id="378d6919" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="heading.default">
+          <h2 className="elementor-heading-title elementor-size-default">¿Por qué Óptica Duhalde?</h2>				</div>
+        <div className="elementor-element elementor-element-0f1696f elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="0f1696f" data-element_type="widget" data-e-type="widget" data-widget_type="divider.default">
+          <div className="elementor-divider">
+            <span className="elementor-divider-separator">
+            </span>
+          </div>
+        </div>
+        <div className="elementor-element elementor-element-1aaf7822 elementor-widget elementor-widget-text-editor" data-id="1aaf7822" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="text-editor.default">
+          <p>En Óptica Duhalde creemos que elegir tus lentes debe ser una experiencia personalizada y sin presiones. Nos tomamos el tiempo para escucharte, comprender tus necesidades visuales y asesorarte en la elección de monturas que armonicen con tu rostro, estilo y personalidad. Combinamos salud visual, asesoría de imagen y atención cercana para que te sientas seguro, cómodo y feliz con tu decisión.</p>								</div>
+        <div className="elementor-element elementor-element-5243f0a3 elementor-mobile-align-center elementor-widget elementor-widget-button" data-id="5243f0a3" data-element_type="widget" data-e-type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeInUp&quot;}" data-widget_type="button.default">
+          <a className="elementor-button elementor-button-link elementor-size-sm" href="#contacto">
+            <span className="elementor-button-content-wrapper">
+              <span className="elementor-button-text">Contáctanos</span>
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+); }

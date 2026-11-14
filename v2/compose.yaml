@@ -1,0 +1,19 @@
+name: optica-duhalde-v2
+services:
+  db:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_USER: duhalde
+      POSTGRES_PASSWORD: duhalde_local
+      POSTGRES_DB: optica_duhalde
+    ports:
+      - '127.0.0.1:5486:5432'
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U duhalde -d optica_duhalde']
+      interval: 2s
+      timeout: 3s
+      retries: 30
+volumes:
+  postgres_data:

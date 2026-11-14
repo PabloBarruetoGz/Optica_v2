@@ -1,0 +1,33 @@
+{
+  "name": "@duhalde/backend",
+  "private": true,
+  "version": "2.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "check": "tsc --noEmit",
+    "migrate": "tsx src/migrate.ts",
+    "start": "node dist/server.js",
+    "test": "tsx --test src/*.test.ts",
+    "admin:create": "tsx src/create-admin.ts",
+    "test:integration": "NODE_ENV=test tsx --test src/*.integration.ts"
+  },
+  "dependencies": {
+    "better-auth": "^1.7.12",
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.1.0",
+    "helmet": "^8.1.0",
+    "pg": "^8.16.0",
+    "sharp": "^0.35.5",
+    "zod": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^24.0.0",
+    "@types/pg": "^8.15.0",
+    "jose": "^6.2.13",
+    "tsx": "^4.20.0"
+  }
+}

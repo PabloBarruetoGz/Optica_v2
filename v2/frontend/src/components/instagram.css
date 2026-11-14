@@ -1,0 +1,19 @@
+.instagram-section { max-width: 1200px; margin: auto; padding: 64px 24px; }
+.instagram-heading { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px; margin-bottom: 24px; }
+.instagram-heading p { color: #973758; margin: 0 0 8px; }
+.instagram-heading h2 { margin: 0; font-size: clamp(28px, 4vw, 40px); }
+.instagram-heading > a { background: #973758; color: white; padding: 12px 20px; border-radius: 6px; text-decoration: none; }
+.instagram-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 24px; }
+.instagram-post { position: relative; min-height: 320px; min-width: 0; border: 1px solid #e9e0e4; border-radius: 10px; overflow: hidden; background: #fff; }
+.instagram-post iframe { display: block; width: 100% !important; max-width: 100% !important; min-width: 0 !important; border: 0; }
+.instagram-post blockquote { display: flex; align-items: center; justify-content: center; min-height: 320px; padding: 24px; margin: 0; background: #f8f6f7; font-style: normal; border: 0; }
+.instagram-post > a { display: block; padding: 16px; text-align: center; color: #973758; }
+.account-page .instagram-enabled { display: flex; align-items: center; gap: 10px; }
+.account-page .instagram-enabled input { width: 18px; height: 18px; margin: 0; }
+.account-page .instagram-add { max-width: none; display: flex; flex-wrap: wrap; align-items: end; gap: 12px; margin-top: 20px; }
+.instagram-add label { flex: 1; min-width: min(100%, 260px); }
+.instagram-admin-list { padding-left: 24px; }
+.instagram-admin-list li { padding: 12px 0; border-bottom: 1px solid #e9e0e4; }
+.instagram-admin-list li > a { display: inline-block; margin: 0 16px 8px 0; overflow-wrap: anywhere; }
+.instagram-admin-list li > div { display: inline-flex; gap: 8px; }
+@media(max-width:600px) { .instagram-section { padding: 40px 16px; } .instagram-add button { width: 100%; } }

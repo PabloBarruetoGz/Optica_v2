@@ -1,0 +1,2 @@
+var ekit_config = {"ajaxurl":"https://opticaduhalde.cl/wp-admin/admin-ajax.php","nonce":"4ca5905e26","i18n":{"video_frame":"Reproductor de video","close":"Cerrar","slider_prev":"Diapositiva anterior","slider_next":"Siguiente diapositiva","slider_first":"Esta es la primera diapositiva","slider_last":"Esta es la \u00faltima diapositiva","slider_bullet":"Ir a la diapositiva {{index}}"}};
+//# sourceURL=ekit-core-js-extra

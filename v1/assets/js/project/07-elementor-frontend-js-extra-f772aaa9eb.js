@@ -1,0 +1,2 @@
+var EAELImageMaskingConfig = {"svg_dir_url":"https://opticaduhalde.cl/wp-content/plugins/essential-addons-for-elementor-lite/assets/front-end/img/image-masking/svg-shapes/"};
+//# sourceURL=elementor-frontend-js-extra

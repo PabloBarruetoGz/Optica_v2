@@ -1,0 +1,13 @@
+{
+  "name": "optica-duhalde",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix v2 run dev",
+    "build": "npm --prefix v2 run build",
+    "check": "npm --prefix v2 run check",
+    "test": "npm --prefix v2 test",
+    "postinstall": "npm --prefix v2 install",
+    "admin:create": "npm --prefix v2 run admin:create --",
+    "test:integration": "npm --prefix v2 run test:integration"
+  }
+}

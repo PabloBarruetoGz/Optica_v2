@@ -1,0 +1,36 @@
+.commerce-panel { --commerce-accent:#973758; min-width:0; }
+.commerce-panel fieldset { border:0; padding:0; margin:0; min-width:0; }
+.commerce-panel form { margin-block:1rem; }
+.commerce-panel label { display:grid; gap:.35rem; }
+.commerce-grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,15rem),1fr)); gap:.8rem 1rem; margin-bottom:1rem; }
+.commerce-panel .commerce-check { display:flex; align-items:center; gap:.5rem; }
+.commerce-panel .commerce-check input { width:auto; }
+.commerce-actions { display:flex; flex-wrap:wrap; gap:.6rem; align-items:center; margin-block:.8rem; }
+.commerce-panel button { cursor:pointer; }
+.commerce-panel button:disabled { cursor:default; }
+.commerce-panel :focus-visible { outline:2px solid var(--commerce-accent); outline-offset:3px; }
+.commerce-week { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,10.5rem),1fr)); gap:.65rem; }
+.commerce-week > section,.commerce-week > div { border:1px solid #e5d6de; border-radius:.55rem; padding:.75rem; overflow-wrap:anywhere; }
+.commerce-week h3,.commerce-week h4 { margin-top:0; }
+.commerce-slot { border-top:1px solid #e5d6de; padding:.55rem 0; }
+.commerce-slot button { margin-block:.2rem; }
+.commerce-timeline { padding-left:1.3rem; }
+.commerce-timeline [aria-current] { color:var(--commerce-accent); font-weight:700; }
+.commerce-booking { max-width:1150px; margin:auto; padding:clamp(2rem,5vw,4rem) 1.25rem; scroll-margin-top:2rem; }
+.commerce-booking button { background:white; color:var(--commerce-accent); border:1px solid var(--commerce-accent); border-radius:.35rem; padding:.5rem .8rem; margin:.15rem; font:inherit; }
+.commerce-booking button[aria-pressed=true],.commerce-booking button[type=submit] { background:var(--commerce-accent); color:white; }
+.commerce-booking input { width:100%; box-sizing:border-box; padding:.45rem; }
+.commerce-confirmation { background:#f9eff4; border-radius:.5rem; padding:1rem; overflow-wrap:anywhere; }
+.commerce-brand-process { max-width:1100px; margin:0 auto; padding:1.25rem; }
+.commerce-brand-process ol { display:grid; grid-template-columns:repeat(auto-fit,minmax(min(100%,13rem),1fr)); gap:.75rem 1.5rem; }
+.commerce-hero-secondary { display:inline-block; margin:1rem; color:inherit; text-decoration:underline; }
+
+.advisory-builder { padding:clamp(.9rem,2vw,1.4rem); border:1px solid #e5d6de; border-radius:.75rem; background:#fff; }
+.advisory-builder h4 { margin-top:0; }
+.advisory-preview { display:flex; flex-wrap:wrap; gap:.4rem; list-style:none; margin:.65rem 0 0; padding:0; }
+.advisory-preview li,.advisory-state { border-radius:1rem; background:#f0e2ea; color:#603047; padding:.28rem .65rem; font-size:.92rem; }
+.advisory-state-published { background:#e2f2ea; color:#175743; }
+.advisory-state-blocked { background:#ecebf0; color:#414154; }
+.advisory-state-reserved { background:#faebce; color:#6c4406; }
+.account-page .commerce-booking { max-width:none; margin-block:1rem; border:1px solid #e5d6de; border-radius:.75rem; background:#fff; }
+.commerce-booking .commerce-actions button,.advisory-builder button { min-height:44px; }

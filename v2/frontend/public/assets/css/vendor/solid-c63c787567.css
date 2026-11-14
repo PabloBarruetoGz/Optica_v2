@@ -1,0 +1,16 @@
+/*!
+ * Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+@font-face {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url("../../media/fa-solid-900-813ca80a0c.eot");
+  src: url("../../media/fa-solid-900-49959f6593.eot") format("embedded-opentype"), url("../../media/fa-solid-900-2e2b0d53d6.woff2") format("woff2"), url("../../media/fa-solid-900-575395a2c6.woff") format("woff"), url("../../media/fa-solid-900-98d090210c.ttf") format("truetype"), url("../../media/fa-solid-900-430402246c.svg") format("svg"); }
+
+.fa,
+.fas {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900; }
